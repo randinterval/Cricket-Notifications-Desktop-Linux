@@ -12,7 +12,7 @@ public class CricketNotify{
 			api.notifyStatus();
 			try {
 				//Optimize the Sleep Level
-				Thread.sleep(Math.random()*2);
+				Thread.sleep(150000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
